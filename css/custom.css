@@ -1,0 +1,545 @@
+h1 {
+    text-align: center;
+    font-family: 'Source Sans Pro', sans-serif;
+    color: #555;
+    font-size: 30px;
+    font-weight: 300;
+    margin-bottom: 25px;
+   }
+h2 {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 35px;
+    color:#222;
+    font-weight:300;
+    margin-bottom:25px;
+}
+h3 {
+    font-family: 'Source Sans Pro', sans-serif;
+    color:#555;
+    font-size:25px;
+    font-weight:300;
+}
+h5 {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight:400;
+    font-size:17px;
+}
+p  {
+    font-family: 'Source Sans Pro', sans-serif;
+    color: #555;
+    font-weight:400;
+    font-size: 16px;
+    margin-bottom: 40px;
+    line-height: 1.6em;
+  } 
+  
+.row {
+    text-align:center;
+}
+.page-header {
+    padding-top: 50px;
+}
+.center {
+    text-align:center;
+}
+
+
+.imglg {    height:256px; margin-bottom:50px;   }
+.imgmd {    height: 90px; margin-bottom: 35px;  }
+.imgsm {    height:40px; margin-bottom:5px; }
+
+ .navbar {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight:400;
+    text-align:center;
+    text-transform:uppercase;
+}
+
+.navbar-header {
+    float: left;
+    padding: 15px;
+    text-align: center;
+    width: 100%;
+    background:#eee;
+}
+.navbar-brand {float:none;}
+
+.navbar-brand {
+    font-family:'Oswald', sans-serif;
+    font-weight:400;
+}
+.navbar-nav li {
+    padding-right:2vw;
+    padding-left:2vw;
+}
+
+.navbar-nav li:hover {
+    background: #f5f5f5;
+}
+.subactive {
+    color:#3297ff;
+}
+
+.navbar-brand {
+    text-align:center;
+}
+.navbar-collapse { clear:both; 
+    
+}
+
+/*-------------------------HOMEPAGE----------------*/
+#homepage { display:none; }
+#homepage {
+    text-align: center;
+    background: url('../images/treebg.jpg') no-repeat;
+    background-size: cover;
+    background-position:center;
+    min-height:100vh;
+}
+#filter {
+    z-index: 1;
+	background: rgba(53, 53, 53, 0.5);
+	min-height:100vh;
+}
+.page-statement {
+    text-align:center;
+    margin-top:2vh;
+    margin-bottom:20vh;
+    color:#fff;
+    font-weight:400;
+    text-transform:uppercase;
+}
+#imgspan {
+/*    background: url('https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQuAZxIZERX69g7K4GJyhlt5zEGzPU_isMHjHWQ8_sZZ_bYPSlQ') no-repeat;
+    background-position: left; 
+    background-size:cover;
+       -webkit-background-clip: text;
+       -webkit-text-fill-color: transparent;  */
+   color:#f5f5f5;
+   text-shadow:1px 1px #222;
+   font-family: 'Oswald';
+   font-weight:400;
+   text-transform: uppercase;
+   letter-spacing: 0px;
+   margin-top:28vh;
+   letter-spacing:12px;
+}
+#homepage .navbar, #homepage .navbar li a {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight:700;
+    text-align:center;
+    text-transform:uppercase;
+    border:none;
+    background:none;
+    color:#fff;
+}
+#homepage .navbar-nav li:hover > a {
+    color:#3297ff;
+}
+#homepage .navbar-nav li:hover {
+    color:#555;
+    border-bottom:1px solid #ccc;
+}
+  @media (max-width:500px) {
+      .carousel-inner > .item > img {
+          min-width:100vh;
+          min-height:50vh;
+        }
+  }
+  @media (max-width:766px) { 
+      #homepage .navbar-nav li { 
+            font-size: 17px;
+        }
+      #imgspan {
+          font-size:50px;
+      }
+      
+  }
+  
+  @media (min-width:767px) {
+       #homepage .navbar-nav li { 
+            padding-left:3vw;
+            padding-right:3vw;
+            margin-left:0px;
+            margin-right:0px;
+        }
+        #homepage .navbar-nav {
+            float:none;
+            margin: 0 auto;
+            display: table;
+            table-layout: fixed;
+        }
+        #imgspan {
+            font-size:100px;
+        }
+        .container-fluid .navbar-nav {
+            float:none;
+            margin: 0 auto;
+            display: table;
+            table-layout: fixed;
+        }
+        .container-fluid .navbar-nav li { 
+            padding-left:1vw;
+            padding-right:1vw;
+        }
+        .container-fluid .navbar-nav li a {
+            padding-left:2px;
+            padding-right:2px;
+            margin-left:0;
+            margin-right:0;
+            font-size: 13px;
+        }
+  }
+  
+  @media (min-width:1000px) {
+        
+        #homepage .navbar-nav li { 
+            padding-left:4vw;
+            padding-right:4vw;
+            font-size: 17px;
+        }
+        .navbar-nav {
+            float:none;
+            margin: 0 auto;
+            display: table;
+            table-layout: fixed;
+        }
+        
+        .navbar-nav li { 
+            padding-left:2vw;
+            padding-right:2vw;
+        }
+        
+  }
+  @media (min-width:1200px) {
+      #imgspan {
+            font-size:110px;
+        }
+  }
+  
+  /*-----------------------end HOMEPAGE----------------*/
+  
+  /*-----------------------rest of the pages (should look the same)--------*/
+  #aboutpage, #keynotespage, #resources {
+      margin-top:-20px;
+  }
+  .dark {
+      color:#555;
+  }
+
+.page-header .bg {
+    background-color: #ffc862;
+ border-radius: 50%;
+ padding:25px;
+ font-size:25px;
+ color:#555;
+ margin-bottom:20px;
+}
+
+  .row {
+      text-align:center;
+      background:none;
+      padding-top:5vh;
+      padding-bottom:5vh;
+  }
+  .bluebg {
+      background: url('../images/bluebg.png') no-repeat;
+      background-size:cover;
+  }
+  .bbluebg {
+      background: url('../images/bbluebg.png') no-repeat;
+      background-size:cover;
+  }
+  .redbg {
+      background:url('../images/redbg.png') no-repeat;
+      background-size:cover;
+  }
+  .blackbg {
+      background:#444;
+      
+  }
+  .obubbles {
+      background:url('../images/obubbles.svg') no-repeat;
+      background-size:cover;
+      background-position: center bottom;
+  }
+  .graybg {
+      background: url('../images/graybg.png') no-repeat;
+      background-size:cover;
+  }
+  .light p, .light h2, .light, #aboutpage .light .page-header i {
+      color:#fefefe;
+  }
+  #aboutpage .page-header .glyphicon {
+      font-size:30px;
+      color:#222;
+  }
+  .fullpage {
+      min-height:100vh;
+  }
+  .halfpage {
+      min-height:50vh;
+  }
+  .small-col {
+      max-width:640px;
+      margin-left:auto;
+      margin-right:auto;
+      text-align:center;
+      line-height:1.8em;
+      padding-left:20px;
+      padding-right:20px;
+      padding-bottom:5vh;
+  }
+  #aboutpage .small-col p, h3 {
+      text-align:justify;
+  }
+  
+  .spacer {
+      height:10vh;
+      width:100%;
+  }
+  .eventspan {
+      text-decoration:bold;
+      color:#555;
+      font-weight:400;
+      font-size:20px;
+  }
+  .eventdate {
+      color:#999;
+      font-weight:400;
+      font-size:15px;
+  }
+  #keynotespage p, #resourcespage .row p {
+      font-weight:300;
+      text-align:left;
+  }
+  #keynotespage i {
+      font-size:40px;
+  }
+  
+  
+  #resourcespage .page-header {
+      padding-top:0px;
+  }
+  #resourcespage .col-xs-10 {
+      text-align:left;
+  }
+  #resourcespage .small-col p {
+      font-weight:400;
+      text-align:justify
+  }
+  #resourcespage .row {
+      padding-top:0;
+      padding-bottom:0;
+      padding-left:10px;
+      padding-right:10px;
+  }
+  #resourcespage .row .col-md-6 .col-xs-2 img {
+      display:none;
+  }
+  .col-xs-2 {
+      vertical-align:middle;
+  }
+  
+  .infobox {
+      background-color:#fff;
+      border:1px solid #ffc862;
+      padding-top:-100px;
+      text-transform:uppercase;
+      text-align:center;
+      width:280px;
+      margin-left:auto;
+      margin-right:auto;
+      margin-top:80px;
+      padding-bottom:25px;
+      font-weight:400;
+  }
+  .infobox p{
+      font-weight:400;
+      text-align:center;
+      line-height:1.1em;
+      font-size:16px;
+      color:#222;
+      width:190px;
+      margin-bottom:20px;
+      margin-left:45px;
+  }
+  .infobox a { color: #3297ff; font-weight:400; text-transform:lowercase;}
+  .infobox i {
+      margin-top:-50px;
+      margin-bottom:30px;
+      color:orange;
+  }
+  
+  
+  /*------------------------------------ Carousel base class----------------------------- */
+    
+  #aboutpage .carousel, #aboutpage .carousel .item, #aboutpage .carousel-inner > .item > img {
+      min-height:70vh;
+      
+  }
+.carousel {
+  min-height: 50vh;
+  font-family:'Source Sans Pro', sans-serif;
+}
+.carousel .carousel-control {
+    background:transparent;
+}
+.carousel-control .icon-prev, 
+.carousel-control .icon-next {
+    font-size: 50px;
+    margin-top:-20px;
+}
+.carousel-caption {
+  z-index: 10;
+  font-size:20px;
+  font-weight:400;
+  text-decoration:none;
+  font-family:'Source Sans Pro', sans-serif;
+  margin-bottom:50px;
+}
+.carousel .item {
+  min-height: 50vh;
+}
+.carousel-inner > .item > img {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  min-width:768px;
+  min-height:50vh;
+}
+
+
+#news {
+    font-family:'Source Sans Pro', sans-serif;
+}
+
+/*------------------------FOOTER yay------------------------*/
+#footer { background:#444; }
+#footer .row {
+    min-height: 350px;
+  background-color: #444;
+  color:#eee;
+  font-family:'Source Sans Pro', sans-serif;
+  padding-top:80px;
+}
+#footer span {
+    text-transform:uppercase;
+    font-weight:700;
+    color:#ddd;
+}
+#footer .col-sm-4 p{
+    color:#ddd;
+    text-align:left;
+    padding-top:20px;
+    font-size:15px;
+    line-height:2em;
+}
+#footer ul {
+    margin-top:20px;
+}
+#footer ul li a {
+    line-height:2em;
+}
+#footer ul, #footer li {
+    text-decoration:none;
+    list-style-type: none;
+    padding:0; margin:0;
+}
+#footer #label {
+    color:#bbb;
+    text-align:center;
+    vertical-align:text-bottom;
+    margin-bottom:0px;
+    padding:5px;
+    border-top:1px solid #555;
+}
+#footer i {
+    font-size:20px;
+}
+
+
+
+/*-----------------LOADING-------------------*/
+
+.loaderwrap {
+    width:100%;
+    height:100vh;
+    position:fixed;
+    background:#fff;
+    z-index:5000;
+}
+.loaded .loaderwrap {
+    visibility:hidden;
+    display:none;
+}
+.loader {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  background: none;
+  border: 7px solid #3297ff;
+  margin: 40vh auto;
+  position:relative;
+  -webkit-animation: spin 2.5s linear infinite ; 
+    animation: spin 2.5s linear infinite ;
+}
+.loader:before {
+  content:"";
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background: #fff;
+  border: 5px solid #444;
+  box-shadow: 0px 0px 0px 7px #fff;
+  position: absolute;
+  top:3px;
+  left: 5px;
+}
+
+@-webkit-keyframes spin {
+    0%   {
+          -webkit-transform: rotate(0deg);
+          -moz-transform: rotate(0deg);
+          -ms-transform: rotate(0deg);
+          -o-transform: rotate(0deg);
+          transform: rotate(0deg);
+          }
+    100% {
+          -webkit-transform: rotate(360deg);
+          -moz-transform: rotate(360deg);
+          -ms-transform: rotate(360deg);
+          -o-transform: rotate(360deg);
+          transform: rotate(360deg);
+          }
+}
+
+
+/*-------------------------scrollbar fancy :) yay-------*/
+body {
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+/* Let's get this party started */
+::-webkit-scrollbar {
+    width: 6px;
+}
+ 
+/* Track */
+::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3); 
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    background: rgba(53,53,53,0.8); 
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.5); 
+}
+::-webkit-scrollbar-thumb:window-inactive {
+	background: rgba(255,0,0,0.4); 
+}
