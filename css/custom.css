@@ -73,7 +73,7 @@ p  {
     padding-left:2vw;
 }
 .navbar-nav i {
-	font-size: 20px;
+	font-size: 28px;
 }
 
 .navbar-nav li:hover {
@@ -107,9 +107,9 @@ p  {
 .page-statement {
     text-align:center;
     margin-top:2vh;
-    margin-bottom:20vh;
+    margin-bottom:32vh;
     color:#fff;
-    font-weight:400;
+    font-weight:700;
     text-transform:uppercase;
 }
 #imgspan {
@@ -124,7 +124,7 @@ p  {
    font-weight:400;
    text-transform: uppercase;
    letter-spacing: 0px;
-   margin-top:28vh;
+   margin-top:10vh;
    letter-spacing:12px;
 }
 #homepage .navbar, #homepage .navbar li a {
@@ -135,6 +135,18 @@ p  {
     border:none;
     background:none;
     color:#fff;
+    font-size:21px;
+}
+#homepage .info {
+  padding-top: 50px;
+}
+#homepage .info li a {
+  font-size: 17px;
+  text-transform: none;
+  color: #fff;
+}
+#homepage .info li:hover {
+    
 }
 #homepage .navbar-nav li:hover > a {
     color:#3297ff;
@@ -199,7 +211,7 @@ p  {
         #homepage .navbar-nav li { 
             padding-left:4vw;
             padding-right:4vw;
-            font-size: 17px;
+            font-size: 24px;
         }
         .navbar-nav {
             float:none;
@@ -217,6 +229,9 @@ p  {
   @media (min-width:1200px) {
       #imgspan {
             font-size:110px;
+        }
+        #homepage .navbar-nav li {
+          font-size:24px;
         }
   }
   
