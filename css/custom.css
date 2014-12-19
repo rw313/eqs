@@ -72,6 +72,9 @@ p  {
     padding-right:2vw;
     padding-left:2vw;
 }
+.navbar-nav i {
+	font-size: 20px;
+}
 
 .navbar-nav li:hover {
     background: #f5f5f5;
